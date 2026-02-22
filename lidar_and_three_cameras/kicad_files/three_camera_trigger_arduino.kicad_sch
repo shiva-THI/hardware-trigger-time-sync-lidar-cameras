@@ -1,0 +1,1606 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fa3d5b68-e518-4b65-8ee7-e69173a8ef44")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_Module:Arduino_Nano_v3.x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -10.16 23.495 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Arduino_Nano_v3.x"
+				(at 5.08 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Module:Arduino_Nano"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Arduino Nano v3.x"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Arduino nano microcontroller module USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Arduino*Nano*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Arduino_Nano_v3.x_0_1"
+				(rectangle
+					(start -10.16 22.86)
+					(end 10.16 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_v3.x_1_1"
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 25.4 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 25.4 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 25.4 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 161.29 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7f111a-3745-4738-b4a1-495b6e736bf7")
+	)
+	(junction
+		(at 161.29 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "168faf5a-2f44-4610-8cc2-752e65d7ea3e")
+	)
+	(junction
+		(at 161.29 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717f9124-9991-43ee-9faf-b5840462ec50")
+	)
+	(junction
+		(at 180.34 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e467f1-f2aa-460a-98f6-fb2bdcc2abaa")
+	)
+	(junction
+		(at 180.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e786f9-d7a8-4aad-91f0-a4e006e73d65")
+	)
+	(no_connect
+		(at 209.55 78.74)
+		(uuid "1ad6fe27-6ddc-4f38-8f18-0850fa1be752")
+	)
+	(no_connect
+		(at 209.55 86.36)
+		(uuid "2454bd42-8e15-4ab7-9d75-39749810b442")
+	)
+	(no_connect
+		(at 184.15 83.82)
+		(uuid "2c413c03-c703-4af3-9f6a-07728d488f09")
+	)
+	(no_connect
+		(at 199.39 50.8)
+		(uuid "373f414d-553a-470c-b257-72f8a9e82125")
+	)
+	(no_connect
+		(at 184.15 93.98)
+		(uuid "392705ef-435a-4505-8025-5c6bcfe289f5")
+	)
+	(no_connect
+		(at 209.55 93.98)
+		(uuid "542e8f24-d5d1-417c-96be-f89b7555f7a1")
+	)
+	(no_connect
+		(at 184.15 60.96)
+		(uuid "5a93e43e-aaac-427d-b499-b78ec86b7984")
+	)
+	(no_connect
+		(at 209.55 71.12)
+		(uuid "6113bdb0-c156-4c23-883c-ef38813652d6")
+	)
+	(no_connect
+		(at 184.15 86.36)
+		(uuid "6305a42f-259a-40a6-861a-43ab528d80bc")
+	)
+	(no_connect
+		(at 184.15 88.9)
+		(uuid "684397c7-9f26-4d79-9fe5-b2592785db50")
+	)
+	(no_connect
+		(at 209.55 88.9)
+		(uuid "710f72ee-7079-4d2d-aa5d-1a194c8d72bb")
+	)
+	(no_connect
+		(at 194.31 50.8)
+		(uuid "7471c5d7-418f-4582-baa3-4dca0cf37b07")
+	)
+	(no_connect
+		(at 201.93 50.8)
+		(uuid "78abfb94-0ccc-41f3-a3fc-6c9ecc6aca4a")
+	)
+	(no_connect
+		(at 209.55 83.82)
+		(uuid "7bc92a04-691d-48e3-8c18-b0cfd527faa2")
+	)
+	(no_connect
+		(at 199.39 101.6)
+		(uuid "7be8802b-b354-42e6-97b3-34fb2c21c9ab")
+	)
+	(no_connect
+		(at 209.55 81.28)
+		(uuid "8719293a-fb80-48b8-a272-93c6f184cb35")
+	)
+	(no_connect
+		(at 209.55 63.5)
+		(uuid "9a03870d-e51a-4248-b93b-b45cf3bb834f")
+	)
+	(no_connect
+		(at 184.15 91.44)
+		(uuid "9bf476b2-3164-46e6-9ba5-018467920083")
+	)
+	(no_connect
+		(at 209.55 76.2)
+		(uuid "abfbebcb-a546-4d2a-86ca-d90e145e2811")
+	)
+	(no_connect
+		(at 209.55 60.96)
+		(uuid "acbaba6e-4e00-4d55-821b-0cc59572f2b0")
+	)
+	(no_connect
+		(at 184.15 63.5)
+		(uuid "c790a929-7534-4403-b267-a14360f3dce1")
+	)
+	(no_connect
+		(at 184.15 81.28)
+		(uuid "dfdc705f-7ca0-4ee6-aefb-0ab74b42fbfd")
+	)
+	(no_connect
+		(at 209.55 91.44)
+		(uuid "fa688dac-d205-4241-bdf1-e2af2e2a8175")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068d4760-1079-412f-842b-90732d39bb04")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d1f83e-747c-4476-a3a3-fc6363255020")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12485a35-3ead-4f52-9106-c40d56bcfe92")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16df2a29-57af-4af8-8915-d895060840fb")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c38337e-7c8f-4bc0-a909-b79558c6dbc2")
+	)
+	(wire
+		(pts
+			(xy 196.85 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37dac554-c9aa-4325-8fdd-4a21060ca96c")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382a867e-39c6-45eb-b79a-60e92aa1238e")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56144223-49ca-436c-b3a3-18bfe1458aab")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579e0c8b-ecfb-4066-ab99-76227596946e")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c19ee7c-78c4-4de8-840f-9721acfcbceb")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b6d082-ce3d-4f85-ba7f-1f2d9526db71")
+	)
+	(wire
+		(pts
+			(xy 153.67 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b479d92-1cc4-4925-957d-1d947dea7f04")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75315388-756e-43fd-b60b-0076c4d58070")
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 184.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967a93dd-20b1-4d7b-b476-16b1f6cd5973")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e91c889-3a70-499a-ac1e-70df0f1929e1")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27b1d4b-1b9e-46a2-bc2e-11bd100f0133")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37f259f-71a0-40c8-a7b5-0914b8dd0ed1")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a839efb8-4b35-4900-a857-c81421cc308b")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c116bd9d-4754-4ab3-9ace-52a6f69be8ec")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a158a8-1e86-41cd-8360-865d21a182bf")
+	)
+	(wire
+		(pts
+			(xy 184.15 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd119a35-ac11-4c84-9c4f-6f858ed163fd")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6125ef-7320-435f-bfe4-74db01877874")
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d858df-af54-4079-a36f-1e8b7bcc0a6b")
+	)
+	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v3.x")
+		(at 196.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de4cc27-2df5-480a-aa7f-c87a6b18c296")
+		(property "Reference" "A1"
+			(at 201.5333 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino_Nano_v3.x"
+			(at 201.5333 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano_WithMountingHoles"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino Nano v3.x"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "1af8de0d-595c-4ab4-9849-29b7b01d7ca0")
+		)
+		(pin "25"
+			(uuid "d6e9e3e5-35a8-4866-a2f0-f5429838211b")
+		)
+		(pin "20"
+			(uuid "c6da9ba7-2ea3-4967-9525-21bacdfe12e1")
+		)
+		(pin "3"
+			(uuid "66478f5e-0df5-43fd-b2f3-f5e85b89874e")
+		)
+		(pin "26"
+			(uuid "1dc387d0-9e7b-48ba-9c01-040336f39859")
+		)
+		(pin "19"
+			(uuid "70c620c4-1468-4c54-998b-d65dcd3a44fa")
+		)
+		(pin "18"
+			(uuid "3c2f3f36-abf4-42c4-be25-13464e8c2498")
+		)
+		(pin "21"
+			(uuid "6a11a072-c402-49fa-94c1-32c011b07674")
+		)
+		(pin "23"
+			(uuid "ee7ed3a5-0d30-44ad-a501-168cff90a90c")
+		)
+		(pin "24"
+			(uuid "844eb3c7-3cbd-43ff-8601-986cd178b34d")
+		)
+		(pin "17"
+			(uuid "45805bab-b641-4a99-92da-700bfe3e92d5")
+		)
+		(pin "10"
+			(uuid "7cd19dc6-3156-4768-8ce9-445a6db17534")
+		)
+		(pin "7"
+			(uuid "40a23142-7977-4060-9013-9ea090141597")
+		)
+		(pin "9"
+			(uuid "8689519e-326a-40d7-bd63-126f80bc638a")
+		)
+		(pin "13"
+			(uuid "713be589-9735-47e8-82a1-bbcbbf64703e")
+		)
+		(pin "5"
+			(uuid "dbeb505b-aac5-475c-bd17-e06778184f5f")
+		)
+		(pin "11"
+			(uuid "63a8bb7b-db90-4452-991f-52034a91f057")
+		)
+		(pin "14"
+			(uuid "d89687bf-4acf-46b5-ab02-31654f20f321")
+		)
+		(pin "12"
+			(uuid "52703da6-6550-4c0c-ab1f-1a3f4624c3a4")
+		)
+		(pin "16"
+			(uuid "2ffe3654-0647-412a-b779-10545f38422a")
+		)
+		(pin "4"
+			(uuid "d68c8fa7-a5f8-4130-9f0e-4aa32d2e837a")
+		)
+		(pin "1"
+			(uuid "e0fabf5c-1071-41e6-85e6-22d3f20fbc69")
+		)
+		(pin "8"
+			(uuid "8a8067ea-21bb-4d02-b5be-214a26cf8927")
+		)
+		(pin "2"
+			(uuid "aa13b5e6-4cfb-445d-bfa5-0a0472f0364c")
+		)
+		(pin "15"
+			(uuid "a14305f3-4924-4fa4-b4b8-3e96f8f8c672")
+		)
+		(pin "6"
+			(uuid "866ac973-f430-4280-9005-146c4717bbfe")
+		)
+		(pin "30"
+			(uuid "d381e65e-c58b-461f-9f3d-fd44f9aaba69")
+		)
+		(pin "29"
+			(uuid "3620465a-51f9-4bed-9bf5-4f7a44556b67")
+		)
+		(pin "27"
+			(uuid "ad892f38-7e5d-4a72-a998-5d4bc5c6533c")
+		)
+		(pin "28"
+			(uuid "043a62fd-6927-45b5-b370-c1d7c5ada076")
+		)
+		(instances
+			(project ""
+				(path "/fa3d5b68-e518-4b65-8ee7-e69173a8ef44"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 148.59 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4372c348-8885-4fbf-8154-5763ec6ec9e0")
+		(property "Reference" "J2"
+			(at 141.478 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "camera_left"
+			(at 140.97 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95dfe4d9-921c-42d9-bd0b-34f2ccb20f58")
+		)
+		(pin "1"
+			(uuid "7b038956-cf61-4ed7-85e1-899c11e8b5a7")
+		)
+		(instances
+			(project ""
+				(path "/fa3d5b68-e518-4b65-8ee7-e69173a8ef44"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 148.59 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48a011de-860a-4755-aaf0-de8460462efb")
+		(property "Reference" "J4"
+			(at 143.002 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "camera_right"
+			(at 140.716 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4136475d-246d-4f3d-9b3c-6c1aca104fd0")
+		)
+		(pin "1"
+			(uuid "04bb08a1-3504-460c-8da1-67418ae411c8")
+		)
+		(instances
+			(project ""
+				(path "/fa3d5b68-e518-4b65-8ee7-e69173a8ef44"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 156.21 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79d188e9-af31-4f5c-8336-2f89852d38b2")
+		(property "Reference" "J1"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "lidar"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26e6fbf-63cd-4b5c-93ef-34c4fe1c583b")
+		)
+		(pin "2"
+			(uuid "682d0e0d-6dc2-413a-9d2b-10e48a765041")
+		)
+		(instances
+			(project ""
+				(path "/fa3d5b68-e518-4b65-8ee7-e69173a8ef44"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 146.05 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce1ceae0-f82a-432c-9004-90009694bac0")
+		(property "Reference" "J3"
+			(at 138.176 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "camera_middle"
+			(at 137.16 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a29ae6c9-947d-40ed-9c94-fd8842537540")
+		)
+		(pin "1"
+			(uuid "fa265417-0744-48a0-931a-cff747533631")
+		)
+		(instances
+			(project ""
+				(path "/fa3d5b68-e518-4b65-8ee7-e69173a8ef44"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
